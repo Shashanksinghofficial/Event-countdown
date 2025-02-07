@@ -8,41 +8,38 @@
  width:100%;
  background-image: url("https://i.postimg.cc/s2tn9gx3/images.jpg");
  background-repeat: no-repeat;
- background-size:cover;position: center;
+ background-size:cover;
+ position: center;
  
 }
 .overlay{
   height:100%;
   width:100%;
-  display:flex;
- justify-content: center;
- align-items: center;
  
 
-  background-color:rgba(0, 0, 0, 0.6)
+ background-color:rgba(0, 0, 0, 0.6)
 }
 .div{
-  font-size:15px;
- text-align:center;
+  font-size:60px;
  color:white;
+ margin-left:20px;
 }
 .container{
-  height:100px;
-  width:160px;
-  border:2px double white;
+  height:480px;
+  width:570px;
+  border:2px dashed white;
   margin:auto;
   
 }
 input{
-  width:50px;
-  
- 
+  width:250px;
   text-align: center;
-  font-size: 15px;
+  font-size: 85px;
   outline:none;
 }
 label{
   color:#FF0000;
   font-weight:bold;
   text-align: center;
+  font-size:80px;
 }
